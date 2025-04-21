@@ -58,7 +58,9 @@ function ProjectCard({ project, description }) {
           <div className="ml-4 lg:ml-8 mr-2">
             <p className="text-white">Description:</p>
             {description.map((item, index) => {
-              return <p className="text-cyan-400" key={index}>{item}</p>
+              return <div className="text-cyan-400" key={index}>
+                {item}
+              </div>
             })}
           </div>
           <div><span className="text-gray-400">{`};`}</span></div>
