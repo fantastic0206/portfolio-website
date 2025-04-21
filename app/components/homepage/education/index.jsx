@@ -6,8 +6,8 @@ import { BsPersonWorkspace } from "react-icons/bs";
 import lottieFile from '/public/lottie/study.json';
 import dynamic from "next/dynamic";
 
-const AnimationLottie = dynamic(() => import("../../helper/animation-lottie"), {ssr: false})
-const GlowCard = dynamic(() => import("../../helper/glow-card"), {ssr: false})
+const AnimationLottie = dynamic(() => import("../../helper/animation-lottie"), { ssr: false })
+const GlowCard = dynamic(() => import("../../helper/glow-card"), { ssr: false })
 
 function Education() {
   return (
@@ -43,27 +43,33 @@ function Education() {
             </div>
           </div>
 
-          <div>
+          <div className="flex justify-center items-center">
             <div className="flex flex-col gap-6">
               {
                 educations.map(education => (
                   <GlowCard key={education.id} identifier={`education-${education.id}`}>
-                    <div className="p-3 relative text-white">
+                    <div className="px-3 py-7 relative text-white">
                       <Image
                         src="/blur-23.svg"
                         alt="Hero"
-                        width={1080}
-                        height={200}
+                        width={526}
+                        height={172}
                         className="absolute bottom-0 opacity-80"
                       />
                       <div className="flex justify-center">
-                        <p className="text-xs sm:text-sm text-[#16f2b3]">
+                        <p className="text-xs sm:text-lg text-[#16f2b3]">
                           {education.duration}
                         </p>
                       </div>
                       <div className="flex items-center gap-x-8 px-3 py-5">
                         <div className="text-violet-500  transition-all duration-300 hover:scale-125">
-                          <BsPersonWorkspace size={36} />
+                          <Image
+                            src="https://brand.uark.edu/_resources/images/downloads/covers/uark-logo-profile-image.jpg"
+                            alt="Arkansas"
+                            width={100}
+                            height={100}
+                            className="object-cover"
+                          />
                         </div>
                         <div>
                           <p className="text-base sm:text-xl mb-2 font-medium uppercase">

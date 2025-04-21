@@ -6,11 +6,12 @@ import Footer from './components/footer';
 import Navbar from './components/navbar';
 import './css/card.scss';
 import './css/globals.scss';
+import { personalData } from '@/utils/data/personal-data';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Portfolio of Benjamin Hernandez - Software Developer',
-  description: 'This is the portfolio of Benjamin Hernandez. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.',
+  title: `Portfolio of ${personalData.name} - ${personalData.designation}`,
+  description: `This is the portfolio of ${personalData.name}. I am a ${personalData.designation} and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.`,
 };
 
 export default function RootLayout({ children }) {

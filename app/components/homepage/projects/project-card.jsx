@@ -2,8 +2,7 @@
 
 import * as React from 'react';
 
-function ProjectCard({ project }) {
-
+function ProjectCard({ project, description }) {
   return (
     <div className="from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full">
       <div className="flex flex-row">
@@ -57,9 +56,10 @@ function ProjectCard({ project }) {
             <span className="text-gray-400">,</span>
           </div>
           <div className="ml-4 lg:ml-8 mr-2">
-            <span className="text-white">Description:</span>
-            <span className="text-cyan-400">{' ' + project.description}</span>
-            <span className="text-gray-400">,</span>
+            <p className="text-white">Description:</p>
+            {description.map(item => {
+              return <p className="text-cyan-400">{item}</p>
+            })}
           </div>
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
