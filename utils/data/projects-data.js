@@ -6,18 +6,18 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'SeaFair Yacht Booking System',
+        name: 'Statking Betting App',
         description: [
-            "- Managed 6 members cross-functional(frontend, backend, and design) team and coordinated with business partners toward the successful launch of Booking platform using React, Redux, Next.JS, Express, and MongoDB.",
+            "- Coordinated with 6 members cross-functional(frontend, backend, and design) team toward the successful launch of Betting App and Platform using React, React Native, Next.JS, NestJS, Tailwind CSS and PostgreSQL.",
             "- Maintained consistent and clear communication with team members and stakeholders, ensuring alignment and understanding throughout the project lifecycle.",
-            "- Engineered and deployed custom designed charts using D3, precisely tailored to project specifications.",
+            "- Experienced in building and optimizing interactive front-end components and scalable back-end systems using REST APIs and GraphQL",
             "- Ensured top-notch code quality, security, and cross-platform compatibility for web applications.",
             "- Used Agile methodology and managed daily standups for sprint planning and to-do lists.",
             "- Implemented Automated Payment System using Stripe.",
             "- Deployed the project to AWS and managed EC2, Route53, and Load Balancer.",
             "- Used Git for version control and Jira for managing of project workflows effectively."
         ],
-        tools: ['React.js', 'Next.js', 'TypeScript', 'D3.js', 'AWS', 'GitHub', 'Agile Methodologies', 'Jira', 'Tailwind CSS', 'Node.js', 'Python', 'Django', 'PostgreSQL'],
+        tools: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js', 'React Native', 'NestJS', 'PostgreSQL', 'Rest APIs', 'GraphQL', 'AWS', 'GitHub', 'Agile Methodologies', 'Jira'],
         role: 'Lead Full Stack Developer',
         code: '',
         demo: '',
@@ -25,17 +25,17 @@ export const projectsData = [
     },
     {
         id: 2,
-        name: 'Lenote App',
+        name: 'SeaFair Yacht Booking System',
         description: [
             "- Developed web applications using HTML, CSS, JavaScript, and Bootstrap template resulting in 20% increase in user engagement.",
             "- Implemented responsive design using Bootstrap and added dynamic UI interactions with jQuery, resulting in a smoother user experience across devices.",
-            "Managed 5 simultaneous projects across various tech stacks, ensuring timely delivery.",
-            "Spearheaded comprehensive testing procedures across browsers, devices, and operating systems, leading to a 40% reduction in user-reported bugs post-launch and enhancing overall user satisfaction.",
-            "Ensured 100% on-time delivery of products to customer locations, exceeding client expectations.",
-            "Developed in Sitefinity, with experience in migrating content from other systems, managing CMS operations, and designing customized websites to meet client needs.",
-            "Developed high-quality code with over 90% coverage using React Native, React, JavaScript, Python, and TypeScript, while integrating REST APIs."
+            "- Managed 5 simultaneous projects across various tech stacks, ensuring timely delivery.",
+            "- Spearheaded comprehensive testing procedures across browsers, devices, and operating systems, leading to a 40% reduction in user-reported bugs post-launch and enhancing overall user satisfaction.",
+            "- Ensured 100% on-time delivery of products to customer locations, exceeding client expectations.",
+            "- Developed in Sitefinity, with experience in migrating content from other systems, managing CMS operations, and designing customized websites to meet client needs.",
+            "- Developed high-quality code with over 90% coverage using React Native, React, JavaScript, Python, and TypeScript, while integrating REST APIs."
         ],
-        tools: ['HTML5', 'CSS3', "JavaScript", "BootStrap", "jQuery UI", "Dynamic UI", "Sitefinity", "CMS", "WordPress", 'Shopify', 'React Native', 'Python', 'REST APIs', 'Git', 'Stripe'],
+        tools: ['React', 'HTML5', 'CSS3', "JavaScript", "BootStrap", "jQuery UI", "Dynamic UI", "Sitefinity", "CMS", "WordPress", 'Shopify', 'React Native', 'Python', 'REST APIs', 'Git', 'Stripe'],
         role: 'Senior Front End Developer',
         code: '',
         demo: '',
