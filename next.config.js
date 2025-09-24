@@ -1,7 +1,8 @@
 const path = require('path')
- 
+
 module.exports = {
-  output: 'export',
+  // Remove or comment out this line for better Speed Insights support
+  // output: 'export',
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
